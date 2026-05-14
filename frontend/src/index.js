@@ -1,3 +1,5 @@
+import axios from 'axios';
+axios.defaults.baseURL = 'https://zylo-backend-21u2.onrender.com';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
